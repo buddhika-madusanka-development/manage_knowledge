@@ -22,6 +22,10 @@ export default {
         base : 'var(--base-text-color)',
         mute : 'var(--mute-text-color)',
       },
+      fontFamily : {
+        base : 'var(--base-font-family)',
+        mute : 'var(--mute-font-family)',
+      }
     },
     plugins: [],
   },

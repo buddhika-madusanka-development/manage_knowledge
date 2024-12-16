@@ -21,3 +21,8 @@
     --tag-border-color : #116751;
   } 
 } 
+
+body{
+  background-color: var(--base-background-color);
+  color: var(--base-text-color);
+}
