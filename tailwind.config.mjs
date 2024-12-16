@@ -7,11 +7,22 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      backgroundColor: {
+        base: "var(--base-background-color)",
+        mute: "var(--mute-background-color)",
+        "primary-color": "var(--primary-color)",
+        "secondary-color": "var(--secondary-color)",
+        "accent-color": "var(--accent-color)",
+        tag: "var(--tag-background)",
+      },
+      borderColor: {
+        tag: "var(--tag-border-color)",
+      },
+      textColor: {
+        base : 'var(--base-text-color)',
+        mute : 'var(--mute-text-color)',
       },
     },
+    plugins: [],
   },
-  plugins: [],
 };

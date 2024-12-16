@@ -16,5 +16,8 @@
 
     --base-font-family : 'montserrat', sans-serif;
     --mute-font-family : 'Poppins', sans-serif;
+
+    --tag-background : #020502;
+    --tag-border-color : #116751;
   } 
-}
+} 
