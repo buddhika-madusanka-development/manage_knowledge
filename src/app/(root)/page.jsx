@@ -1,6 +1,8 @@
 import SearchBar from "@/components/common/SearchBar";
 import Tag from "@/components/common/Tag";
+import HighlitedTitile from "@/components/common/Titles/HighlitedTitile";
 import Title from "@/components/common/Titles/Title";
+import YoutubeChannelCard from "@/components/layouts/YoutubeChannelCard/YoutubeChannelCard";
 import Image from "next/image";
 
 export default function Home() {
@@ -51,6 +53,12 @@ export default function Home() {
       </section>
 
       {/* Favourite youtube chanels section */}
+      <section className="youtube-channels mt-10">
+        <HighlitedTitile title="Favourite" highlightText="Youtube Channels" />
+        <div className="chanel-cards mt-8">
+          <YoutubeChannelCard />
+        </div>
+      </section>
       
     </div>
   );
