@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const YoutubeChannelCard = () => {
   return (
-    <div className='bg-mute px-10 py-14 rounded-3xl w-full'>
+    <Link href={'#'} className='bg-mute px-10 py-14 rounded-3xl w-full youtub-chanel-card'>
         <div className='w-3/5  mx-auto flex flex-col items-center'>
             <Image 
                 src={'/sample.jpg'}
@@ -14,9 +15,9 @@ const YoutubeChannelCard = () => {
             />
 
             <h2 className='font-semibold text-lg bg-mute text-center mt-5 text-lg line-clamp-2'>Javascript mastery</h2>
-            <p className='mt-3 text-sm font-normal text-mute line-clamp-2'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat nobis mollitia?</p>
+            <p className='mt-3 text-sm font-normal text-mute line-clamp-2 text-center'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur placeat nobis mollitia?</p>
         </div>
-    </div>
+    </Link>
   )
 }
 
