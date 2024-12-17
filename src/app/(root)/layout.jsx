@@ -1,8 +1,8 @@
 import React from 'react'
 
 // import components from components folder
-import Header from '@/components/Header/Header'
-import Footer from '@/components/Footer/Footer'
+import Header from '@/components/layouts/Header/Header'
+import Footer from '@/components/layouts/Footer/Footer'
 
 const layout = ({children}) => {
   return (
@@ -10,7 +10,9 @@ const layout = ({children}) => {
         {/* Insert header into root route group */}
         <Header />
 
-        {children}
+        <div className="w-11/12 mx-auto">
+          {children}
+        </div>
 
         {/* Insert footer into root route group */}
         <Footer />
