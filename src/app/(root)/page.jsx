@@ -49,6 +49,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Favourite youtube chanels section */}
+      
     </div>
   );
 }
