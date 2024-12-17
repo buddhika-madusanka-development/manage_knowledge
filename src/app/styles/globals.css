@@ -26,3 +26,7 @@ body{
   background-color: var(--base-background-color);
   color: var(--base-text-color);
 }
+
+.bg-glow{
+  background-image: radial-gradient(closest-side, var(--primary-color), var(--base-background-color));
+}
