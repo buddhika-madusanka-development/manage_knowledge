@@ -35,3 +35,8 @@ body{
   box-shadow: 5px 5px var(--primary-color);
   transition: all ease 400ms;
 }
+
+.youtube-video-card:hover {
+  box-shadow: 5px 5px var(--primary-color);
+  transition: all ease 400ms;
+}
