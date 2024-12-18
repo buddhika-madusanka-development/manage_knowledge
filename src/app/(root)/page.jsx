@@ -4,6 +4,7 @@ import HighlitedTitile from "@/components/common/Titles/HighlitedTitile";
 import Title from "@/components/common/Titles/Title";
 import YoutubeChannelCard from "@/components/layouts/YoutubeChannelCard/YoutubeChannelCard";
 import FavouriteYoutubeChanels from "@/components/UI/Home/FavoriteChanels/FavouriteYoutubeChanels";
+import ReacentContentSection from "@/components/UI/Home/ReacentContentSectiion/ReacentContentSection";
 import Image from "next/image";
 
 export default function Home() {
@@ -56,6 +57,11 @@ export default function Home() {
       {/* Favourite youtube chanels section */}
       <section className="youtube-channels mt-10">
         <FavouriteYoutubeChanels />
+      </section>
+
+      {/* Resent video content section */}
+      <section className="recent-content-section mt-10">
+        <ReacentContentSection />
       </section>
       
     </div>
