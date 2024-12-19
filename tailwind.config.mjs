@@ -7,6 +7,11 @@ export default {
   ],
   theme: {
     extend: {
+      colors : {
+        'primary' : 'var(--primary-color)',
+        'secondary' : 'var(--secondary-color)',
+        'accent' : 'var(--accent-color)',
+      },
       backgroundColor: {
         base: "var(--base-background-color)",
         mute: "var(--mute-background-color)",

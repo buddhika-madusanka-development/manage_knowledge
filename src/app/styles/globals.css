@@ -30,3 +30,13 @@ body{
 .bg-glow{
   background-image: radial-gradient(closest-side, var(--primary-color), var(--base-background-color));
 }
+
+.youtub-chanel-card:hover{
+  box-shadow: 5px 5px var(--primary-color);
+  transition: all ease 400ms;
+}
+
+.youtube-video-card:hover {
+  box-shadow: 5px 5px var(--primary-color);
+  transition: all ease 400ms;
+}
