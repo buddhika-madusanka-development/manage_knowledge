@@ -1,3 +1,5 @@
+import Logo from "@/Components/common/Logo/Logo";
+
 export default function Home() {
     
   return (
